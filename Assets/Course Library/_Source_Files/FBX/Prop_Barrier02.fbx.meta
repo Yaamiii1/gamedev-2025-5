@@ -1,23 +1,29 @@
 fileFormatVersion: 2
-guid: 6a1c3c31ad20ee24c837e6aad1e22d80
+guid: 78056cefff7010745ae502ceee2d13e2
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
       1: 100000
+    second: Prop_Barrier02
+  - first:
+      1: 100002
     second: //RootNode
   - first:
       4: 400000
+    second: Prop_Barrier02
+  - first:
+      4: 400002
     second: //RootNode
   - first:
       23: 2300000
-    second: //RootNode
+    second: Prop_Barrier02
   - first:
       33: 3300000
-    second: //RootNode
+    second: Prop_Barrier02
   - first:
       43: 4300000
-    second: SM_Prop_Crate_01
+    second: Prop_Barrier02
   - first:
       95: 9500000
     second: //RootNode
@@ -52,13 +58,13 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 100
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 0
-    importBlendShapes: 0
+    importBlendShapes: 1
     importCameras: 0
     importLights: 0
     fileIdsGeneration: 1
@@ -81,9 +87,9 @@ ModelImporter:
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
-    normalSmoothAngle: 5
+    normalSmoothAngle: 60
     normalImportMode: 1
     tangentImportMode: 1
     normalCalculationMode: 0
@@ -91,7 +97,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -103,7 +109,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 100
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
